@@ -1,0 +1,23 @@
+INSERT INTO gs_bm_table(id,book_name,book_url,comment,indate ) VALUES (
+NULL, 'PHP本', 'http://php.jp', '読みたい本', sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, 'JS本', 'http://JS.jp', '困ったら再度読みたい', sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ‘タングステンおじさん’, 'https://www.amazon.co.jp/dp/4150504725', ‘興味ある’, sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ‘クラフツマン’, 'https://www.amazon.co.jp/dp/4480864458', ‘興味のあるテーマだけど高い…’, sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ‘酒の科学’, 'http://honz.jp/articles/-/43163', ‘楽しい’, sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ‘昆虫は最強の生物である’, 'http://honz.jp/articles/-/43158', ‘小さな世界に大きな役割’, sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ‘さかなクンの一魚一会’, 'http://honz.jp/articles/-/43123', ‘かっこいい’, sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ’10% human’, 'https://www.amazon.co.jp/dp/4309253520', ’2016年最高の1冊’, sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ‘Q思考’, 'https://www.amazon.co.jp/dp/4478023425', ‘買わないけどどうだろう’, sysdate() );
+INSERT INTO gs_bm_table(id, book_name, book_url, comment, indate ) VALUES(
+NULL, ‘悪いヤツほど出世する’, ‘https://www.amazon.co.jp/dp/453232081X', ‘ジャケ買いありうる’, sysdate() );
+
+
+INSERT INTO
