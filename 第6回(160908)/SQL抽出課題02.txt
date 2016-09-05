@@ -1,1 +1,6 @@
-
+UPDATE gs_bm_table SET book_name= 'RB' WHERE id = 7;
+UPDATE gs_bm_table SET book_name= 'PY' WHERE id = 3 OR id = 9;
+UPDATE gs_bm_table SET indate = sysdate() WHERE id >= 6 AND id <= 8;
+UPDATE gs_bm_table SET book_name = 'PHP&JS' WHERE book_name ='JS本';
+UPDATE gs_bm_table SET comment = '未入力' WHERE comment ='';
+
