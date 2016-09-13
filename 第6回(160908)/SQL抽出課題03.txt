@@ -1,1 +1,38 @@
-
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '田中', 'test1@test.test', 0, 25, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '山本', 'test2@test.test', 1, 44, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '佐藤', 'test3@test.test', 0, 32, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '土屋', 'test4@test.test', 1, 43, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '香川', 'test5@test.test', 0, 18, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '井上', 'test6@test.test', 1, 77, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '高松', 'test7@test.test', 1, 89, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '伊東', 'test8@test.test', 0, 59, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '山岸', 'test9@test.test', 1, 61, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '南部', 'test10@test.test', 0, 22, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '谷口', 'test11@test.test', 0, 38, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '杉山', 'test12@test.test', 1, 46, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '桃井', 'test13@test.test', 0, 14, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '山口', 'test14@test.test', 0, 66, 0, sysdate() );
+INSERT INTO gs_users(id,name, email, seibetu, age, auth, indate )VALUES
+(NULL, '吉井', 'test15@test.test', 0, 55, 0, sysdate() );
+
+SELECT * FROM gs_users WHERE id = 1 OR id = 3 OR id=5;
+SELECT * FROM gs_users WHERE id >= 4 AND id <= 8;
+SELECT * FROM gs_users WHERE email LIKE "%test1@%";
+SELECT * FROM gs_users ORDER BY indate DESC;
+SELECT * FROM gs_users WHERE age = 20 AND indate LIKE "2016-05-26%";
+SELECT * FROM gs_users ORDER BY indate DESC LIMIT 5;
+SELECT id,Sum(Quantity) FROM gs_users GROUP BY age where age = 10 OR age = 20 OR age = 30 OR age = 40; 
